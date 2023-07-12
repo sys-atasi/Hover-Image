@@ -1,0 +1,29 @@
+body{
+    height:100vh;
+    background: rgb(62, 217, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(18, 3, 118);
+}
+.thumb{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.background-image{
+    border-radius: 7px;
+    width: 200px;
+    height: 900px;
+    filter: blur(8px);
+    transition: 300ms ease-in-out;
+}
+.background-image:hover{
+    filter:blur(0);
+}
